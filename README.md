@@ -1,8 +1,20 @@
 # IT Manager Toolkit
 
-A practical operating toolkit for IT Managers responsible for day-to-day IT operations, governance, infrastructure, security, vendors, assets, helpdesk, budgeting, and executive reporting.
+A practical IT Management Operating System for day-to-day operations, governance, infrastructure, cybersecurity, vendors, assets, service management, budgeting, resilience, audit, and executive reporting.
 
-Designed for growing organizations that need repeatable controls without unnecessary bureaucracy.
+Designed for IT Managers, infrastructure leaders, digital-transformation managers, and growing organizations that need repeatable controls without unnecessary bureaucracy.
+
+## v1.1 Highlights
+
+- IT Risk Register
+- Change Management
+- Problem Management
+- Patch Management
+- Software License Management
+- Disaster Recovery Plan
+- Business Continuity checklist
+- IT Audit checklist
+- IT Strategy & Roadmap
 
 ## What This Repository Covers
 
@@ -10,16 +22,24 @@ Designed for growing organizations that need repeatable controls without unneces
 - Employee onboarding and offboarding
 - Helpdesk and SLA management
 - Incident and problem management
+- Change management
 - Vendor and contract management
 - IT procurement
 - Network and infrastructure documentation
 - Backup and recovery controls
+- Disaster recovery
+- Business continuity
 - Cybersecurity operational checklists
 - Access management
+- Patch management
+- Software licensing
+- IT risk management
+- IT audit
 - IT budgeting
 - KPI and executive reporting
 - SOP and policy templates
 - Branch / site IT readiness
+- IT strategy and roadmap planning
 
 ## Operating Model
 
@@ -40,9 +60,11 @@ Documentation
     ↓
 Monitoring
     ↓
+Risk / Audit Review
+    ↓
 Reporting
     ↓
-Continuous Improvement
+Strategy & Continuous Improvement
 ```
 
 ## Repository Structure
@@ -61,6 +83,10 @@ Continuous Improvement
 ├── 10-reporting/
 ├── 11-sops/
 ├── 12-site-readiness/
+├── 13-governance/
+├── 14-business-continuity/
+├── 15-audit/
+├── 16-strategy/
 ├── templates/
 ├── examples/
 ├── CHANGELOG.md
@@ -80,9 +106,12 @@ Continuous Improvement
 | Procurement | Request, approval, quotation, PO, receipt |
 | Network | IPs, VLANs, switches, APs, WAN, diagrams |
 | Security | Endpoint, identity, patching, backups, incidents |
-| Backup | Scope, schedule, success, restore tests, retention |
+| Backup / DR | Scope, schedule, restore tests, RPO, RTO, recovery |
+| Governance | Risk, changes, problems, licensing, exceptions |
+| Audit | Control evidence, gaps, actions, ownership |
 | Budget | CAPEX, OPEX, renewals, forecast, variance |
 | Reporting | Availability, incidents, SLA, costs, risks, roadmap |
+| Strategy | Business alignment, initiatives, priorities, roadmap |
 
 ## Recommended IT KPIs
 
@@ -100,9 +129,12 @@ Continuous Improvement
 - Asset inventory accuracy %
 - Expiring warranties
 - Contracts due for renewal
+- License utilization %
 - IT spend vs budget
 - Vendor SLA score
 - Security incidents by severity
+- High/Critical IT risks open
+- Change success rate
 - User onboarding completion time
 
 ## Guiding Principles
@@ -111,12 +143,15 @@ Continuous Improvement
 2. Every privileged access has approval.
 3. Every incident has traceability.
 4. Every recurring issue should trigger root-cause analysis.
-5. Every vendor commitment should have a measurable SLA.
-6. Every critical service must have a backup/recovery plan.
-7. Every IT purchase must map to a business need.
-8. Every production change should be documented.
+5. Every production change should be planned and validated.
+6. Every vendor commitment should have a measurable SLA.
+7. Every critical service must have a backup and recovery plan.
+8. Every IT purchase must map to a business need.
 9. Every critical renewal should have an owner and advance warning.
-10. Executive reports should explain impact, risk, cost, and next action.
+10. Every High/Critical risk needs an owner and treatment decision.
+11. Restore testing matters more than backup-job success alone.
+12. Executive reports should explain impact, risk, cost, and next action.
+13. IT strategy should map technology initiatives to business outcomes.
 
 ## Roadmap
 
@@ -132,6 +167,15 @@ Continuous Improvement
 - [x] KPI dashboard definition
 - [x] Executive IT report
 - [x] Core SOP library
+- [x] Risk management
+- [x] Change management
+- [x] Problem management
+- [x] Patch management
+- [x] License management
+- [x] Disaster recovery
+- [x] Business continuity
+- [x] IT audit checklist
+- [x] IT strategy / roadmap
 - [ ] Interactive IT dashboard
 - [ ] Automated renewal alerts
 - [ ] Asset QR workflow
