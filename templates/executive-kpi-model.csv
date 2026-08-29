@@ -1,0 +1,16 @@
+KPI ID,Domain,KPI Name,Definition,Formula,Frequency,Target,Amber Threshold,Red Threshold,Owner,Data Source
+KPI-001,Helpdesk,SLA Compliance %,Tickets closed within agreed SLA,Compliant Closed Tickets / SLA Eligible Closed Tickets * 100,Monthly,>=90%,80-89%,<80%,IT Manager,Helpdesk Register
+KPI-002,Helpdesk,MTTR,Average resolution time,Total Resolution Time / Resolved Incidents,Monthly,Trend Down,Above baseline >10%,Above baseline >25%,IT Manager,Helpdesk Register
+KPI-003,Operations,Critical Incidents,Open P1 incidents,Count Open P1,Daily,0,1,>=2,IT Manager,Incident Register
+KPI-004,Backup,Backup Success %,Successful scheduled backup jobs,Successful Jobs / Scheduled Jobs * 100,Weekly,>=98%,95-97.9%,<95%,Backup Owner,Backup Register
+KPI-005,Backup,Restore Test Pass %,Successful restore tests,Passed Tests / Completed Tests * 100,Quarterly,100%,90-99%,<90%,IT Manager,Restore Tests
+KPI-006,Security,Patch Compliance %,Compliant in-scope devices,Compliant Devices / In-Scope Devices * 100,Monthly,>=95%,85-94.9%,<85%,IT Operations,Patch Register
+KPI-007,Security,Privileged Access Review %,Privileged accounts reviewed,Reviewed Accounts / Privileged Accounts * 100,Quarterly,100%,90-99%,<90%,IT Manager,Privileged Access Register
+KPI-008,Assets,Asset Inventory Accuracy %,Verified assets matching register,Verified Accurate Assets / Sampled Assets * 100,Quarterly,>=98%,95-97.9%,<95%,IT Operations,Asset Register
+KPI-009,Assets,Warranties Expiring 90 Days,Assets reaching warranty end,Count Warranty End within 90 days,Monthly,Planned,Unowned >0,Critical asset unplanned,IT Manager,Asset Register
+KPI-010,Vendors,Renewals Due 30 Days,Renewals due within 30 days,Count Active Renewals within 30 days,Weekly,0 unowned,Owned decision pending,Unowned/overdue,IT Manager,Renewal Register
+KPI-011,Vendors,Vendor SLA Compliance %,Measured vendor SLA events achieved,Met Vendor SLA / Total SLA Events * 100,Monthly,>=95%,85-94.9%,<85%,Contract Owner,Vendor Review
+KPI-012,Budget,Budget Variance %,Actual vs approved budget,(Actual-Budget)/Budget*100,Monthly,Within approved tolerance,Outside tolerance <=10%,Outside tolerance >10%,IT Manager,Budget Register
+KPI-013,Risk,High/Critical Open Risks,Open residual High/Critical risks,Count Open Risks Rating High or Critical,Monthly,Trend Down,Stable,Increasing/overdue,IT Manager,Risk Register
+KPI-014,Risk,Overdue Risk Actions,Mitigation actions past due,Count Open Actions Due Date < Today,Weekly,0,1-3,>3,IT Manager,Risk Register
+KPI-015,Services,Critical Service Health %,Critical services Green,Green Critical Services / Total Critical Services * 100,Daily,>=95%,85-94.9%,<85%,IT Manager,Service Inventory
