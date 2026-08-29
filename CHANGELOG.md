@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.2.0 — 2026-08-30
+
+### Added
+- Executive IT Dashboard specification
+- IT Risk Heatmap model
+- Machine-ready Executive KPI model (CSV)
+- Dashboard data-source mapping
+- Renewal & License alert automation rules
+- RAG thresholds and executive management questions
+- Data-quality controls for dashboard sources
+
+### Positioning
+v1.2 makes the toolkit dashboard- and automation-ready. Operational registers now map to measurable executive KPIs, alert logic, risk visualization, and future BI/app integrations.
+
 ## v1.1.0 — 2026-08-30
 
 ### Added
