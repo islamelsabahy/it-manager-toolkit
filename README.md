@@ -1,20 +1,18 @@
 # IT Manager Toolkit
 
-A practical IT Management Operating System for day-to-day operations, governance, infrastructure, cybersecurity, vendors, assets, service management, budgeting, resilience, audit, and executive reporting.
+A practical IT Management Operating System for day-to-day operations, governance, infrastructure, cybersecurity, vendors, assets, service management, budgeting, resilience, audit, executive reporting, dashboards, and automation readiness.
 
 Designed for IT Managers, infrastructure leaders, digital-transformation managers, and growing organizations that need repeatable controls without unnecessary bureaucracy.
 
-## v1.1 Highlights
+## v1.2 Highlights
 
-- IT Risk Register
-- Change Management
-- Problem Management
-- Patch Management
-- Software License Management
-- Disaster Recovery Plan
-- Business Continuity checklist
-- IT Audit checklist
-- IT Strategy & Roadmap
+- Executive IT Dashboard specification
+- Risk heatmap model
+- Machine-ready Executive KPI model
+- Dashboard data-source mapping
+- Renewal & license alert automation rules
+- RAG thresholds for executive reporting
+- Data-quality controls for dashboard sources
 
 ## What This Repository Covers
 
@@ -37,6 +35,8 @@ Designed for IT Managers, infrastructure leaders, digital-transformation manager
 - IT audit
 - IT budgeting
 - KPI and executive reporting
+- Dashboard design and source mapping
+- Renewal automation logic
 - SOP and policy templates
 - Branch / site IT readiness
 - IT strategy and roadmap planning
@@ -62,7 +62,9 @@ Monitoring
     ↓
 Risk / Audit Review
     ↓
-Reporting
+KPI & Dashboard Layer
+    ↓
+Alerts / Reporting
     ↓
 Strategy & Continuous Improvement
 ```
@@ -84,7 +86,9 @@ Strategy & Continuous Improvement
 ├── 11-sops/
 ├── 12-site-readiness/
 ├── 13-governance/
+├── 13-dashboard/
 ├── 14-business-continuity/
+├── 14-automation/
 ├── 15-audit/
 ├── 16-strategy/
 ├── templates/
@@ -111,6 +115,8 @@ Strategy & Continuous Improvement
 | Audit | Control evidence, gaps, actions, ownership |
 | Budget | CAPEX, OPEX, renewals, forecast, variance |
 | Reporting | Availability, incidents, SLA, costs, risks, roadmap |
+| Dashboard | KPI definitions, source mapping, RAG thresholds, heatmaps |
+| Automation | Renewals, alerts, escalation rules, future workflow integrations |
 | Strategy | Business alignment, initiatives, priorities, roadmap |
 
 ## Recommended IT KPIs
@@ -134,8 +140,22 @@ Strategy & Continuous Improvement
 - Vendor SLA score
 - Security incidents by severity
 - High/Critical IT risks open
+- Overdue risk actions
 - Change success rate
 - User onboarding completion time
+
+## Executive Dashboard Questions
+
+The dashboard layer is designed to answer:
+
+1. Is the business currently operationally safe from an IT perspective?
+2. What is failing or at risk of failing?
+3. Which issue has the highest business impact?
+4. What needs management approval or funding?
+5. What renewals or deadlines can cause service interruption?
+6. Are backup and recovery controls actually working?
+7. Is IT spend within plan?
+8. Are projects moving toward agreed outcomes?
 
 ## Guiding Principles
 
@@ -152,6 +172,8 @@ Strategy & Continuous Improvement
 11. Restore testing matters more than backup-job success alone.
 12. Executive reports should explain impact, risk, cost, and next action.
 13. IT strategy should map technology initiatives to business outcomes.
+14. Critical renewals should be system-driven, not memory-driven.
+15. Every dashboard KPI must map to a defined and auditable source.
 
 ## Roadmap
 
@@ -164,7 +186,6 @@ Strategy & Continuous Improvement
 - [x] Security operations checklist
 - [x] Backup / recovery checklist
 - [x] IT budget register
-- [x] KPI dashboard definition
 - [x] Executive IT report
 - [x] Core SOP library
 - [x] Risk management
@@ -176,8 +197,13 @@ Strategy & Continuous Improvement
 - [x] Business continuity
 - [x] IT audit checklist
 - [x] IT strategy / roadmap
-- [ ] Interactive IT dashboard
-- [ ] Automated renewal alerts
+- [x] Executive dashboard specification
+- [x] KPI data model
+- [x] Risk heatmap definition
+- [x] Renewal / license alert rules
+- [x] Dashboard source mapping
+- [ ] Interactive IT dashboard application
+- [ ] Working renewal alert automation
 - [ ] Asset QR workflow
 - [ ] AI helpdesk assistant
 - [ ] n8n automation pack
