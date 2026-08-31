@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/github/license/islamelsabahy/it-manager-toolkit)](LICENSE) [![Maintained by](https://img.shields.io/badge/maintained%20by-Islam%20El--sabahy-blue)](https://github.com/islamelsabahy)
+
 # IT Manager Toolkit
 
 A practical IT Management Operating System for day-to-day operations, governance, infrastructure, cybersecurity, vendors, assets, service management, budgeting, resilience, audit, executive reporting, dashboards, and automation readiness.
