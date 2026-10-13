@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/islamelsabahy/it-manager-toolkit)](LICENSE) [![Maintained by](https://img.shields.io/badge/maintained%20by-Islam%20El--sabahy-blue)](https://github.com/islamelsabahy)
+[![License](https://img.shields.io/github/license/islamelsabahy/it-manager-toolkit)](LICENSE) [![Maintained by](https://img.shields.io/badge/maintained%20by-Islam%20El--Sherbiny-blue)](https://github.com/islamelsabahy)
 
 # IT Manager Toolkit
 
@@ -212,5 +212,5 @@ The dashboard layer is designed to answer:
 
 ## Author
 
-Eng. Islam El Sherbiny  
+Eng. Islam El-Sherbiny  
 IT Management · Infrastructure · ERP/Odoo · Digital Transformation · Cybersecurity · AI & Automation
